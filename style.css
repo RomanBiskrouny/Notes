@@ -53,10 +53,17 @@ body {
     opacity: 0.5;
 }
 
-span {
+#span-text {
     width: 500px;
     height: 50px;
     font-size: 30px;
+}
+
+#span-text-crossed-out {
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    text-decoration: line-through;
 }
 
 #btn-delete-note {
@@ -65,7 +72,7 @@ span {
     font-size: 40px;
     background-color: rgb(255, 134, 134);
     border-radius: 1em;
-    border: 0;
+    border: 10px;
     margin-left: 10px;
 }
 
@@ -74,7 +81,16 @@ span {
     border: 1px solid black;
 }
 
-#btn-save-note {
+#btn-check-note-true {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    background-color: rgb(243, 255, 134);
+    border-radius: 1em;
+    border: 0;
+}
+
+#btn-check-note-false {
     width: 60px;
     height: 60px;
     font-size: 40px;
@@ -83,7 +99,12 @@ span {
     border: 0;
 }
 
-#btn-save-note:hover {
+#btn-check-note-true:hover {
+    opacity: 0.8;
+    border: 1px solid black;
+}
+
+#btn-check-note-false:hover {
     opacity: 0.8;
     border: 1px solid black;
 }
@@ -102,8 +123,11 @@ span {
 }
 
 img {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
+}
+p {
+    font-size: 50px;
 }
 
 
